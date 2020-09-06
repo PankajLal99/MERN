@@ -1,0 +1,17 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "Its MongoDB Tutorial",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Databases"
+  ],
+  "author": "Pankaj lal",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.10.3"
+  }
+}

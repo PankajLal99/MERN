@@ -1,0 +1,18 @@
+{
+  "name": "tutorials",
+  "version": "1.0.0",
+  "description": "Its express JS tutorial ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj Lal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "pug": "^3.0.0",
+    "twig": "^1.15.2"
+  }
+}

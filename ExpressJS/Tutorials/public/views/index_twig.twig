@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h1>{{message}}</h1>
+        <form method="post">
+            <label for="uname">Enter the User name : </label>
+            <input type="text" id="uname" name="username"><br>
+            {% if (error.username) %}
+                <p>{{error.username.msg}}</p>
+            {% endif %}
+            <label for="pass">Enter the Password : </label>
+            <input type="password" id="pass" name="password"><br>
+            {% if (error.password) %}
+                <p>{{error.password.msg}}</p>
+            {% endif %}
+            <label for="cpass">Enter the Confirm PAssword : </label>
+            <input type="password" id="cpass" name="cpassword"><br>
+            {% if (error.cpassword) %}
+                <p>{{error.cpassword.msg}}</p>
+            {% endif %}
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
