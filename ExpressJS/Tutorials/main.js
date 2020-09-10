@@ -37,19 +37,19 @@
 // // Routing refers to determining how an application responds to a 
 // // client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
 
-// const express = require("express");
-// const app = express();
-// // console.log(app);
-// app.get("/",(req,res)=>{
-//     res.send("Hello World");
-// });
-// app.get("/users",(req,res)=>{
-//     res.send("Users data accessed");
-// });
-// app.post("/users/profile",(req,res)=>{
-//     res.send("Profile data Sended");
-// });
-// app.listen(3000,()=>console.log("Server running @ 3000"));
+const express = require("express");
+const app = express();
+// console.log(app);
+app.get("/",(req,res)=>{
+    res.send("Hello World");
+});
+app.get("/users",(req,res)=>{
+    res.send("Users data accessed");
+});
+app.post("/users/profile",(req,res)=>{
+    res.send("Profile data Sended");
+});
+app.listen(3000,()=>console.log("Server running @ 3000"));
 
 // // Video 18 Static files https://www.youtube.com/watch?v=a26XARTbUkg&list=PLUVqY59GNZQMcLXlrBo4T557kWjbKHMLS&index=20&t=0s
 // // make a folder named :-> public ->CSS -> images
